@@ -1,0 +1,93 @@
+---
+output: pdf_document
+header-includes:
+  - \usepackage{fullpage} 
+  - \usepackage[catalan]{babel}
+  - \usepackage{fancyhdr}
+  - \setlength{\headsep}{7mm}
+---
+
+
+\pagenumbering{arabic}
+
+\begin{titlepage}
+
+\begin{center}
+
+\huge
+\textbf{}
+
+\vspace{3cm}
+
+\huge
+\textbf{Comparativa de patrons i tendències dels atemptats terroristes a escala mundial}
+
+\huge
+\textbf{(1970 - 2021)}
+
+\vspace{1.5cm}
+
+\large
+    \textbf{Marçal Bardí Pérez}
+
+\large
+    \textbf{María del Mar Bargalló Menacho}
+    
+\large
+    \textbf{Sergi Esturi i Vinyal}
+
+\large
+    \textbf{Siling Guo}
+    
+\large
+    \textbf{Lucía Izquierdo Cruz}
+    
+\large
+    \textbf{Aleix Martin Moral}
+
+\large
+    \textbf{Reig Ojea Ponce}
+    
+\vspace{1.5cm}
+
+\large
+  \textit{15 de febrer de 2024}
+
+\end{center}
+\end{titlepage}
+
+\newpage
+
+\setlength{\headheight}{13.6pt}
+\setlength{\topmargin}{-10mm}
+
+\pagestyle{fancy}
+
+\fancyhf{}
+
+\rhead{Comparativa de patrons i tendències dels atemptats terroristes a escala mundial}
+\newpage
+
+\tableofcontents
+\addtocontents{toc}{\setcounter{tocdepth}{3}}
+
+
+\newpage
+
+\cfoot{\thepage}
+\setcounter{page}{1}
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning=FALSE)
+path <- dirname(rstudioapi::getActiveDocumentContext()$path)
+setwd(path)
+```
+
+
+```{r dades, include=FALSE}
+
+```
+
+
+# 1. Definició del projecte
+
